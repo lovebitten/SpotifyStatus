@@ -9,7 +9,7 @@ import os
 import codecs
 colorama.init()
 
-__author__: str = 'Erdem Yılmaz'
+__author__: str = 'depress'
 __version__: str = '1.0.0'
 
 class color:
@@ -114,7 +114,7 @@ if __name__ == "__main__":
   |    | \___ \|  |  /    <|  |
   |____|/____  >____/|__|_ \__|
              \/           \/  
-                    {color.OKCYAN + "❄ Tsuki#4786" + color.ENDC}
+                    {color.OKCYAN + "- - - - " + color.ENDC}
     """ + color.ENDC)
     try:
         os.open(f".cache-{username}", 1)
